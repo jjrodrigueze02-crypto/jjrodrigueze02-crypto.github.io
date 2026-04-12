@@ -1,5 +1,5 @@
 ## ENG
-## Juan Jesús · Portfolio 👾
+# Juan Jesús · Portfolio 👾
 
 This repository hosts Juan Jesús's professional portfolio
 
