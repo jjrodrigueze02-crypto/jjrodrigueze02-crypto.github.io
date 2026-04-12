@@ -1,9 +1,9 @@
-## ENG
+### ENG
 # Juan Jesús · Portfolio 👾
 
 This repository hosts Juan Jesús's professional portfolio
 
-## What's inside 💯
+# What's inside 💯
 
 ↪ Bio 📎<br>
 ↪ OS 🖥️<br>
@@ -13,12 +13,12 @@ This repository hosts Juan Jesús's professional portfolio
 ↪ Work Experience ✍<br>
 ↪ Education & Certifications 🧩
 
-## ESP
-## Juan Jesús · Portfolio 👾
+### ESP
+# Juan Jesús · Portfolio 👾
 
 En este repositorio esta alojado el Portfolio de Juan Jesús
 
-## Que encontratas dentro de la WEB 💯
+# Que encontratas dentro de la WEB 💯
 
 ↪ Biografía 📎<br>
 ↪ Los sistemas que usa 🖥️<br>
