@@ -1,0 +1,3 @@
+## PUEDES ROBAR TODO EL CODIGO/ASSETS QUE QUIERAS, NO TE VOY A MIRAR MAL :b
+
+Eso sí, dame créditos ratilla

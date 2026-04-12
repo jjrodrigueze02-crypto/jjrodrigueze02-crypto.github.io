@@ -1,8 +1,13 @@
-body {
-    background-color: #f9fad2;
+/*todo esto es del index, por si no te habias dado cuenta*/
+
+/*el fondo, no tocar*/ body {
+    background-color: #ffffeb;
 }
+
+/*titulo y subtitulo, por si no quedaba claro por el nombre de las clases*/
+
 .start-title {
-    color: #b3dbc8;
+    color: #f00065 ;
     font-family: "Changa One", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -10,17 +15,33 @@ body {
     text-align: center;
     font-size: 5vw;
     width: 100vw;
-    height: 100vh;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -1vw;
 }
 
-.start-subtitle {
+.start-subtitle { /*usar esta config como referencia para hacer el resto de cosas*/
     color: #b3dbc8;
     font-family: "Changa One", sans-serif;
     font-weight: 400;
-    font-style: normal;
+    font-style: norimal;
     text-shadow: 2px 2px 0px rgba(33, 31, 106, 0.8);
     text-align: center;
     font-size: 2vw;
     width: 100vw;
-    height: 100vh;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #b3dbc8;
+    padding-bottom: 2vw;
+    max-width: 50vw;
+    margin: 0 auto; /*porfavor, no quites esto, es lo que mantiene intacto esta parte del codigo*/
+}
+
+.github-image {
+   background-color: #b3dbc3;
+
 }
