@@ -6,6 +6,31 @@
 
 /*titulo y subtitulo, por si no quedaba claro por el nombre de las clases*/
 
+
+.tittle {
+  position: relative;
+}
+
+.ink-stain-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: -3vh;
+  margin-left: -2vh;
+}
+
+.ink-stain-rigth {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: -3vh;
+  margin-right: -2vh;
+}
+
+.start-tittle-header{
+  padding-top: 3vw;
+}
+
 .start-title {
     color: #f00065 ;
     font-family: "Changa One", sans-serif;
@@ -20,6 +45,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom: -1vw;
+    margin-top: 6vh;
 }
 
 .start-subtitle { /*usar esta config como referencia para hacer el resto de cosas*/
@@ -69,3 +95,33 @@
    margin-top: -16vh;
    
 }
+
+/*this buttons are from https://uiverse.io/adamgiebl/rude-bear-14*/
+
+.button-nav {
+  position: relative;
+  display: inline-block;
+  margin: 15px;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #725AC1;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 2px solid #725AC1;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 #725AC1;
+}
+
+.button-nav:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0 #725AC1;
+}
+
+.button-nav:active {
+  transform: scale(0.9);
+}
+
