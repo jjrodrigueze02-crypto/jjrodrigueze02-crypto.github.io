@@ -3,6 +3,8 @@
 /*el fondo, no tocar*/ 
 body {
     background-color: #ffffeb;
+    font-family: 'Poppins', sans-serif; 
+    margin: 0; 
 }
 
 /*titulo y subtitulo, por si no quedaba claro por el nombre de las clases*/
@@ -43,31 +45,35 @@ body {
   margin-top: 2vh;
   margin-left: 28vw;
   border-bottom: 2px solid #262324;
-  margin-bottom: 8vh;
+  margin-bottom: 4vh;
 }
-/*this buttons are from https://uiverse.io/adamgiebl/rude-bear-14*/
 
-.button-nav {
-  position: relative;
-  display: inline-block;
-  margin: 15px;
-  padding: 15px 30px;
+.nav { 
+  margin-top: -3vh; 
   text-align: center;
-  font-size: 18px;
-  letter-spacing: 1px;
+ }
+
+
+/*this buttons are from https://uiverse.io/adamgiebl/rude-bear-14*/
+.button-nav {
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
   text-decoration: none;
-  color: #725AC1;
+  color: #262324;
   background: transparent;
   cursor: pointer;
-  transition: ease-out 0.5s;
-  border: 2px solid #725AC1;
+  transition: ease-out 0.3s;
+  border: 2px solid #f00065;
   border-radius: 10px;
-  box-shadow: inset 0 0 0 0 #725AC1;
 }
 
 .button-nav:hover {
   color: white;
-  box-shadow: inset 0 -100px 0 0 #725AC1;
+  background: #f00065;
 }
 
 .button-nav:active {
