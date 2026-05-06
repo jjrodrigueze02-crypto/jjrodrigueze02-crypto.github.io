@@ -44,7 +44,7 @@ body {
 }
 
 /*titulo y subtitulo, por si no quedaba claro por el nombre de las clases*/
-.header {
+header {
   position: relative; /*Cuando usamos esta etiqueta es para que los objetos que tengan la propiedad relativo dentro de si y dentro de un div, se muevan respecto a este item*/
 }
 
@@ -82,7 +82,7 @@ body {
   margin-bottom: 4vh;
 }
 
-.nav { 
+nav { 
   margin-top: -2vh; 
   text-align: center;
   align-items: center;
@@ -113,5 +113,23 @@ body {
 
 .button-nav:active {
   transform: scale(0.9);
+}
+
+main {
+  
+}
+
+
+/* Visually hidden but accessible to screen readers and search engines */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 

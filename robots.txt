@@ -1,0 +1,6 @@
+# robots.txt — Portfolio de Juan Jesús Rodríguez Escobar
+User-agent: *
+Allow: /
+Disallow: /.git/
+
+Sitemap: https://jjrodrigueze02-crypto.github.io/sitemap.xml
